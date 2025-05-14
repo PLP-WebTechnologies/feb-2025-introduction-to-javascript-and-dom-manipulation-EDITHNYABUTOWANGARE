@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Manipulation Example</title>
+    <style>
+        /* Initial CSS */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .changed-text {
+            color: red;
+            font-weight: bold;
+        }
+        
+        .new-element {
+            padding: 10px;
+            margin-top: 20px;
+            background-color: lightblue;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DOM Manipulation Example</h1>
+    </header>
+
+    <main>
+        <section>
+            <p id="textContent">This is a paragraph that will be changed.</p>
+            <button id="changeTextButton">Change Text</button>
+        </section>
+
+        <section>
+            <button id="changeStyleButton">Change Style</button>
+        </section>
+
+        <section>
+            <button id="toggleElementButton">Add/Remove Element</button>
+            <div id="newElementContainer"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 My Website</p>
+    </footer>
+
+    <!-- Link to external JS file -->
+    <script src="script.js"></script>
+</body>
+</html>
